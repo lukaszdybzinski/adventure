@@ -86,6 +86,12 @@ header {
 	color: whitesmoke;
 }
 
+.menu-btn {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
 /* Mobile device */
 @media only screen and (max-width: 850px) {
 	.navbar {
@@ -95,6 +101,8 @@ header {
 		position: absolute;
 		top: 30px;
 		left: 30px;
+		width: 40px;
+		cursor: pointer;
 	}
 	.nav-links {
 		flex-direction: column;
@@ -102,8 +110,13 @@ header {
 		height: 100vh;
 		justify-content: center;
 		background-color: #484872;
+		margin-top: -900px;
 	}
-	.nav-links li{
+
+	.mobile-menu{
+		margin-top: 0;
+	}
+	.nav-links li {
 		margin: 30px auto;
 	}
 }
