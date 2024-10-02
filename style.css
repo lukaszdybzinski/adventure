@@ -107,6 +107,17 @@ section{
 	color: #49497e;
 }
 
+.row{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.row .col img{
+	width: 80%;
+}
+
 /* Mobile device */
 @media only screen and (max-width: 850px) {
 	.menu-btn{
