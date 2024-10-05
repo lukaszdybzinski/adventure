@@ -23,6 +23,10 @@ ul {
 	font-weight: bold;
 }
 
+body , html{
+	overflow-x: hidden;
+}
+
 /* NAVBAR */
 .navbar {
 	position: absolute;
@@ -112,10 +116,36 @@ section{
 	align-items: center;
 	width: 100%;
 	justify-content: space-between;
+	
+}
+
+.row .col{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .row .col img{
 	width: 80%;
+}
+
+.events .row{
+	margin-top: 50px;
+}
+
+h4{
+	font-size: 3vmin;
+	color: #484872;
+	margin: 20px auto;
+}
+
+p{
+	color: #7c7c7c;
+	padding: 0 40px;
+}
+
+.events .ctn{
+	margin-top: 30px;
 }
 
 /* Mobile device */
