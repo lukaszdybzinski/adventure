@@ -169,7 +169,10 @@ p{
 }
 .explore-content h1{
 	font-size: 7vmin;
-	margin: 50px;
+}
+
+.explore-content .line{
+	margin-bottom: 50px;
 }
 .explore-content p{
 	color: rgb(221, 221, 221);
