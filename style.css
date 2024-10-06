@@ -160,12 +160,23 @@ p{
 }
 
 .explore-content{
-	width: 50%;
+	width: 60%;
 	padding: 50px;
 	color: whitesmoke;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 .explore-content h1{
 	font-size: 7vmin;
+	margin: 50px;
+}
+.explore-content p{
+	color: rgb(221, 221, 221);
+}
+
+.explore-content .ctn{
+	margin-top: 40px;
 }
 
 /* Mobile device */
