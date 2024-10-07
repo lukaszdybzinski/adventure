@@ -182,13 +182,22 @@ p{
 	margin-top: 40px;
 }
 
+.content-col{
+	width: 40%;
+}
+
+.image-col{
+	width: 60%;
+}
+
 .tours .image-gallery{
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .image-gallery img{
-	width: 300px;
+	width: 250px;
+	margin: 10px;
 }
 
 /* Mobile device */
