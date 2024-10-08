@@ -23,7 +23,8 @@ ul {
 	font-weight: bold;
 }
 
-body , html{
+body,
+html {
 	overflow-x: hidden;
 }
 
@@ -100,55 +101,54 @@ header {
 }
 
 /* Events */
-section{
+section {
 	width: 80%;
 	margin: 80px auto;
 }
 
-.title{
+.title {
 	text-align: center;
 	font-size: 4vmin;
 	color: #49497e;
 }
 
-.row{
+.row {
 	display: flex;
 	align-items: center;
 	width: 100%;
 	justify-content: space-between;
-	
 }
 
-.row .col{
+.row .col {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.row .col img{
+.row .col img {
 	width: 80%;
 }
 
-.events .row{
+.events .row {
 	margin-top: 50px;
 }
 
-h4{
+h4 {
 	font-size: 3vmin;
 	color: #484872;
 	margin: 20px auto;
 }
 
-p{
+p {
 	color: #7c7c7c;
 	padding: 0 40px;
 }
 
-.events .ctn{
+.events .ctn {
 	margin-top: 30px;
 }
 
-.explore{
+.explore {
 	width: 100%;
 	height: 100vh;
 	background-image: url('./img/bg2.png');
@@ -159,7 +159,7 @@ p{
 	align-items: center;
 }
 
-.explore-content{
+.explore-content {
 	width: 60%;
 	padding: 50px;
 	color: whitesmoke;
@@ -167,63 +167,76 @@ p{
 	align-items: center;
 	flex-direction: column;
 }
-.explore-content h1{
+.explore-content h1 {
 	font-size: 7vmin;
 }
 
-.explore-content .line{
+.explore-content .line {
 	margin-bottom: 50px;
 }
-.explore-content p{
+.explore-content p {
 	color: rgb(221, 221, 221);
 }
 
-.explore-content .ctn{
+.explore-content .ctn {
 	margin-top: 40px;
 }
 
-.content-col{
+.content-col {
 	width: 40%;
 }
 
-.image-col{
+.image-col {
 	width: 60%;
 }
 
-
-
-.tours .image-gallery{
+.tours .image-gallery {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	align-items: center;
 }
 
-.image-gallery img{
+.image-gallery img {
 	max-width: 300px;
 	margin: 10px;
 }
 
-.content-col h1{
+.content-col h1 {
 	font-size: 7vmin;
 	color: #484872;
 }
 
-.content-col .line{
+.content-col .line {
 	margin-left: -1px;
 }
-.content-col p{
+.content-col p {
 	padding: 0;
 	margin: 30px auto;
 }
 
-.content-col .ctn{
+.content-col .ctn {
 	margin-left: -100px;
+}
+
+.footer {
+	width: 100%;
+	min-width: 100px;
+	padding: 20px 80px;
+	margin: 0;
+	background: #484872;
+	text-align: center;
+}
+
+.footer p {
+	color: whitesmoke;
+	margin: 20px auto;
+	padding: 20px auto;
 }
 
 /* Mobile device */
 @media only screen and (max-width: 850px) {
-	.menu-btn{
+	.menu-btn {
 		display: block;
 	}
 	.navbar {
@@ -243,10 +256,10 @@ p{
 		justify-content: center;
 		background-color: #484872;
 		margin-top: -900px;
-		transition: all .5s ease;
+		transition: all 0.5s ease;
 	}
 
-	.mobile-menu{
+	.mobile-menu {
 		margin-top: 0;
 		border-bottom-right-radius: 30%;
 	}
