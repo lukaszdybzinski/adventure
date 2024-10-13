@@ -271,4 +271,14 @@ p {
 	.row{
 		flex-direction: column;
 	}
+
+	.row .col{
+		margin: 20px auto;
+	}
+
+	col img{
+		min-width: 90%;
+	}
+
+	/* explore */
 }
