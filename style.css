@@ -316,5 +316,10 @@ img:hover{
 .ctn:hover{
 	background: whitesmoke;
 	color: #fc036b;
-	box-shadow: 2px 2px 5px black;
+	box-shadow: 2px 2px 5px #00000056;
+}
+
+li:hover{
+	color: #fc036b;
+	cursor: pointer;
 }
